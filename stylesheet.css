@@ -1,0 +1,123 @@
+* {box-sizing: border-box;}
+
+    .wrapper {
+        max-width: 1024px;
+        margin: 0 auto;
+        font: 1.2em Helvetica, arial, sans-serif;
+        min-height:80%;
+    }
+
+    .wrapper > * {
+        background-color: #ffec99;
+        background: radial-gradient(ellipse at bottom, white 0%, grey 100%);
+        padding: 10px;
+    }
+
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+.main-head {
+  grid-area: header;
+}
+.content {
+  grid-area: content;
+
+}
+.main-nav {
+  grid-area: nav;
+}
+.main-footer {
+  grid-area: footer;
+  font-size: 10px;
+}
+.wrapper {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-areas: 
+    "header"
+    "nav"
+    "content"
+    "footer";
+}
+@media (min-width: 500px) {
+  .wrapper {
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas: 
+      "header  header"
+      "nav     nav"
+      "content content"
+      "footer     footer";
+  }
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media (min-width: 700px) {
+  .wrapper {
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-areas: 
+      "header header  header"
+      "nav    content content"
+      "nav    content content"
+      "footer footer  footer"
+   }
+   nav ul {
+     flex-direction: column;
+   }
+}
+
+#f1_container {
+  position: relative;
+  margin: 10px auto;
+  width: 450px;
+  height: 281px;
+  z-index: 1;
+}
+#f1_container {
+  perspective: 1000;
+}
+#f1_card {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 1.0s linear;
+}
+#f1_container:hover #f1_card {
+  transform: rotateY(180deg);
+  box-shadow: -5px 5px 5px #aaa;
+}
+.face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.face.back {
+  display: block;
+  transform: rotateY(180deg);
+  box-sizing: border-box;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  background-color: #aaa;
+}
+
+.nav-buttons {
+	background: rgba(234, 234, 234, 0.7);
+	margin: 10px;
+	padding:10px;
+	border-radius: 2px;
+}
+
+.main-nav:hover {
+	cursor: pointer;
+}
+
+
+
+a {
+   text-decoration:none;
+}
