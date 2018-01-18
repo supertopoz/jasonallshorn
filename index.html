@@ -5,7 +5,14 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/redux/3.7.2/redux.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <script type="text/javascript" src="contact.js"></script>
+    <script type="text/javascript" src="store.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.17.1/axios.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="parallaxbackground.css">
+	<link rel="stylesheet" type="text/css" href="contact.css">
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 	
 	
@@ -19,17 +26,25 @@
 
 
 <div class="wrapper">
-        <header class="main-head">Jason Allshorn</header>
+        <header class="main-head">Jason Allshorn
+        <div id="contact-icons">
+        <a href="https://github.com/supertopoz" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/jason-allshorn/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+        <a href="https://stackoverflow.com/users/5086349/jason-allshorn?tab=profile" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+        </div>
+
+        </header>
 
         <nav class="main-nav">
 
             <ul>
-                <li class="nav-buttons"><a href="">Home</a></li>
-                <li class="nav-buttons"><a href="">About</a></li>
-                <li class="nav-buttons"><a href="">Projects</a></li>
+            <!--     <li class="nav-buttons"><a href="">Home</a></li> -->
+                <li id="contact" class="nav-buttons">contact</li>
+   <!--              <li class="nav-buttons"><a href="">Apps</a></li>
+                <li class="nav-buttons"><a href="">Blog</a></li> -->
             </ul>
         </nav>
-        <article class="content">
+        <article id="content" class="content">
             <h1>Under Construction...</h1>
             
 <!-- 			<div id="f1_container">
@@ -38,13 +53,15 @@
 						Hello
 					</div>
 					<div class="back face center">
-						<p>This is nice for exposing more information about an image.</p>
+						<p>This is nice for exposing more information contact an image.</p>
 						<p>Any content can go here.</p>
 					</div>
 				</div>
 			</div> -->
         </article> 
-        <footer class="main-footer">copyright 2018 Jason Allshorn</footer>
+        <footer class="main-footer">copyright 2018 Jason Allshorn
+       
+        </footer>
 </div>
 </body>
 </html>

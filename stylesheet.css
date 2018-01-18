@@ -8,8 +8,7 @@
     }
 
     .wrapper > * {
-        background-color: #ffec99;
-        background: radial-gradient(ellipse at bottom, white 0%, grey 100%);
+        background-color: #2f2f2f;
         padding: 10px;
     }
 
@@ -20,17 +19,21 @@
     }
 .main-head {
   grid-area: header;
+  color:#cfcfcf ;
 }
 .content {
   grid-area: content;
+  color: #cfcfcf;
 
 }
 .main-nav {
   grid-area: nav;
+  color: #cfcfcf;
 }
 .main-footer {
   grid-area: footer;
   font-size: 10px;
+  color: #cfcfcf;
 }
 .wrapper {
   display: grid;
@@ -110,6 +113,8 @@
 	margin: 10px;
 	padding:10px;
 	border-radius: 2px;
+  color: #2f2f2f;
+  text-align: center;
 }
 
 .main-nav:hover {
@@ -120,4 +125,16 @@
 
 a {
    text-decoration:none;
+}
+
+#contact-icons{
+  float:right;
+}
+
+#contact-icons:hover{
+  cursor:pointer;
+}
+
+.fa {
+  color: #cfcfcf;
 }
