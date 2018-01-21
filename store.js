@@ -2,7 +2,7 @@
 
 const data = {
   title: 'Get in touch',
-  titleComment: 'Do you want to get in touch or talk to me about a project? <br> Fill out the form below or send an email to j_allshorn@hotmail.com',
+  titleComment: 'Do you want to get in touch or talk to me about a project? <br> Fill out the form below:',
   view: 'contact'
 }
 
