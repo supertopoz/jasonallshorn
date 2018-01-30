@@ -2,6 +2,7 @@ const renderContact = (data) => {
   $('.content').empty();
   var myDiv = document.getElementById('content');
   myDiv.innerHTML = (
+  	'<a id="contact"></a>'+
 	'<div class="contact-body">'+
 		'<h1>' + data.title + '</h1>'+
 		'<p>'+ data.titleComment  +'</p>'+

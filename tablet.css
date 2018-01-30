@@ -1,0 +1,51 @@
+@media (min-width: 500px) {
+  .wrapper {
+    grid-template-columns: auto;
+    grid-template-areas: 
+      "header"
+      "main-head"
+      "about"
+      "content"
+      "footer";
+  }
+
+  .header {
+    display:grid;
+    background-color: grey;
+    grid-template-areas:"name           icons"                        
+                        "navbar-buttons navbar-buttons";
+    background-color: grey;
+    grid-area: header;
+    color:#cfcfcf ;
+    display: grid;
+    margin-top: none;
+    padding: 10px;
+  }
+
+  #name{
+    grid-area: name;
+  }
+
+  #contact-icons{
+    grid-area: icons;
+  }
+
+  .navbar-buttons {
+  display: grid;
+  grid-area: navbar-buttons;
+  grid-gap: 3px;
+  align-self: center;
+  justify-self: center;
+  grid-template-columns: repeat(3, auto)
+}
+
+.nav-buttons {
+  background: rgba(234, 234, 234, 0.7);
+  margin: 10px;
+  padding:10px;
+  border-radius: 2px;
+  color: #2f2f2f;
+  text-align: center;
+}
+
+}

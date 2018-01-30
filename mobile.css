@@ -1,0 +1,42 @@
+@media (max-width: 499px) { 
+
+.header {
+  display:grid;
+  background-color: grey;
+   grid-template-areas: "name "
+                        "icons"
+                        "navbar-buttons";
+                    
+}
+
+#name {
+  display:none;
+  grid-area: name;
+}
+
+#contact-icons {
+  grid-area: icons;
+  align-self: center;
+  justify-self: center;
+}
+
+.navbar-buttons {
+  display: grid;
+  grid-area: navbar-buttons;
+  grid-gap: 3px;
+  align-self: center;
+  justify-self: auto;
+  grid-template-columns: repeat(3, auto)
+}
+
+.nav-buttons {
+  background: rgba(234, 234, 234, 0.7);
+  margin: 4px;
+  padding:2px;
+  border-radius: 2px;
+  color: #2f2f2f;
+  text-align: center;
+  letter-spacing: 6px
+}
+
+}

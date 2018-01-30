@@ -1,0 +1,41 @@
+@media (min-width: 900px) {
+  .wrapper {
+    grid-template-columns: auto;
+    grid-template-areas: 
+      "header"
+      "main-head"
+      "about"
+      "content"
+      "footer"
+   }
+  .header {
+    display:grid;
+    background-color: grey;
+    grid-template-areas:"name  navbar-buttons icons" ;                      
+    background-color: grey;
+    grid-area: header;
+    color:#cfcfcf ;
+    display: grid;
+  }
+
+  #name {
+    grid-area: name;
+      align-self: center;
+  justify-self: center;
+  }  
+
+  #contact-icons {
+  grid-area: icons;
+  align-self: center;
+  justify-self: center;
+}
+
+  .navbar-buttons {
+    display: grid;
+    grid-area: navbar-buttons;
+    grid-gap: 3px;
+    align-self: center;
+    justify-self: center;
+    grid-template-columns: repeat(3, auto)
+  }
+}
