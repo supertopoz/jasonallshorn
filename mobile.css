@@ -42,13 +42,24 @@
 .banner{
   background: none;
   margin-left: 10px;
-  position: absolute;
   margin-top: -5px;
-  text-align: center;
+  align-self: center;
+  justify-self: center;
 }
 
 .banner > h2{  
-  font-size: 1em;
+  display: none;
+}
+
+.about {
+  grid-area: about;
+  display:grid;
+  grid-template-columns: auto;
+  color:#cfcfcf ;
+}
+
+#moon {
+  display:none;
 }
 
 
