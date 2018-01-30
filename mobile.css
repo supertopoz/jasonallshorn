@@ -39,4 +39,17 @@
   letter-spacing: 6px
 }
 
+.banner{
+  background: none;
+  margin-left: 10px;
+  position: absolute;
+  margin-top: -5px;
+  text-align: center;
+}
+
+.banner > h2{  
+  font-size: 1em;
+}
+
+
 }
