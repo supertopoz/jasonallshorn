@@ -1,10 +1,10 @@
 * {box-sizing: border-box;}
 
     .wrapper {
-        max-width: 1024px;
         margin: 0 auto;
-        font: 1.2em Helvetica, arial, sans-serif;
+        font-family: 'Quicksand', sans-serif;
         min-height:80%;
+        letter-spacing: 8px
     }
 
     .wrapper > * {
@@ -17,17 +17,27 @@
         margin: 0;
         padding: 0;
     }
-.main-head {
+.header {
   grid-area: header;
   color:#cfcfcf ;
 }
+
+.header {
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+}
+
+.about {
+  display: grid;
+}
+
 .content {
   grid-area: content;
   color: #cfcfcf;
 
 }
-.main-nav {
-  grid-area: nav;
+.main-head {
+  grid-area: main-head;
   color: #cfcfcf;
 }
 .main-footer {
@@ -40,7 +50,8 @@
   grid-gap: 10px;
   grid-template-areas: 
     "header"
-    "nav"
+    "main-head"
+    "about"
     "content"
     "footer";
 }
@@ -49,8 +60,9 @@
     grid-template-columns: 1fr 3fr;
     grid-template-areas: 
       "header  header"
-      "nav     nav"
-      "content content"
+      "main-head  main-head"
+      "about       about"
+      "content    content"
       "footer     footer";
   }
   nav ul {
@@ -63,47 +75,14 @@
     grid-template-columns: 1fr 4fr 1fr;
     grid-template-areas: 
       "header header  header"
-      "nav    content content"
-      "nav    content content"
+      "main-head main-head main-head"
+      "about  about  about"
+      "content content content"
       "footer footer  footer"
    }
    nav ul {
      flex-direction: column;
    }
-}
-
-#f1_container {
-  position: relative;
-  margin: 10px auto;
-  width: 450px;
-  height: 281px;
-  z-index: 1;
-}
-#f1_container {
-  perspective: 1000;
-}
-#f1_card {
-  width: 100%;
-  transform-style: preserve-3d;
-  transition: all 1.0s linear;
-}
-#f1_container:hover #f1_card {
-  transform: rotateY(180deg);
-  box-shadow: -5px 5px 5px #aaa;
-}
-.face {
-  position: absolute;
-  width: 100%;
-  backface-visibility: hidden;
-}
-.face.back {
-  display: block;
-  transform: rotateY(180deg);
-  box-sizing: border-box;
-  padding: 10px;
-  color: white;
-  text-align: center;
-  background-color: #aaa;
 }
 
 .nav-buttons {
@@ -119,18 +98,23 @@
 	cursor: pointer;
 }
 
-
+.banner{
+  background: none;
+  margin-left: 5%;
+  position: absolute;
+  margin-top: 10%;
+}
 
 a {
    text-decoration:none;
 }
 
-#contact-icons{
-  float:right;
-}
-
 #contact-icons:hover{
   cursor:pointer;
+}
+
+#contact-icons {
+  text-align: right;
 }
 
 .fa {
