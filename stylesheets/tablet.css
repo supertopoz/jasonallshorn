@@ -5,6 +5,8 @@
       "header"
       "main-head"
       "about"
+      "portfolio-header"
+      "portfolio"
       "content"
       "footer";
   }
@@ -18,8 +20,6 @@
     grid-area: header;
     color:#cfcfcf ;
     display: grid;
-    margin-top: none;
-    padding: 10px;
   }
 
   #name{

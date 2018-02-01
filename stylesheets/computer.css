@@ -5,11 +5,12 @@
       "header"
       "main-head"
       "about"
+      "portfolio-header"
+      "portfolio"
       "content"
       "footer"
    }
   .header {
-    display:grid;
     background-color: grey;
     grid-template-areas:"name  navbar-buttons icons" ;                      
     background-color: grey;
@@ -24,7 +25,7 @@
   justify-self: center;
   }  
 
-  
+
 
   #contact-icons {
   grid-area: icons;
