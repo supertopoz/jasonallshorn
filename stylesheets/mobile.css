@@ -1,6 +1,7 @@
 @media (max-width: 499px) { 
 
 .header {
+  box-shadow: 0 1px 1px #5a5a5a;
   display:grid;
   background-color: grey;
    grid-template-areas: "name "
@@ -15,31 +16,31 @@
 }
 
 #contact-icons {
+  display:none;
   grid-area: icons;
   align-self: center;
   justify-self: center;
 }
 
 .navbar-buttons {
-  display: grid;
+  display:grid;
   grid-area: navbar-buttons;
   grid-gap: 2px;
-  align-self: center;
-  justify-self: auto;
-  grid-template-columns: repeat(1, auto)
+/*  align-self: center;
+  justify-self: auto;*/
+ grid-template-columns: 33% 33% 33%;
 
 }
 
 .nav-buttons {
-  display: grid;
   background: rgba(234, 234, 234, 0.7);
-  margin: 4px;
   padding:2px;
   font-size: 12px;
   border-radius: 2px;
   color: #2f2f2f;
   text-align: center;
-  letter-spacing: 6px
+  letter-spacing: 3px;
+  margin:10px;
 }
 
 
