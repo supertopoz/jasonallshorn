@@ -53,6 +53,11 @@
   display:grid;
   grid-template-columns: auto;
   color:#cfcfcf ;
+  margin-top: 84px;
+}
+
+.portfolio-header {
+  padding-top:20px;
 }
 
 .main-head {
@@ -66,6 +71,10 @@
   text-align: center;
   color: #2f2f2f;
   background:rgba(255,255,255, 0.4);
+}
+
+#get-in-touch {
+  padding-top: 40px;
 }
 
 
