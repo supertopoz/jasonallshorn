@@ -1,4 +1,13 @@
 const portfolioData = [
+{
+  "url": "http://connect.ila.edu.vn",
+  "image": "./images/ilaconnect.png",
+  "title": "Connect - LMS",
+  "stack": "PHP, MySQL, Google Apps Script, ",
+  "repo" : "https://github.com/supertopoz/Learning-Management-System"
+  },
+
+
  {
   "url": "https://basketbear.com",
   "image": "./images/basketbear.png",
