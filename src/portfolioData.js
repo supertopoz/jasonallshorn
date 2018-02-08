@@ -30,6 +30,13 @@ const portfolioData = [
   "repo" : "https://github.com/supertopoz/scriptinthree"
   }, 
   {
+  "url": "https://github.com/supertopoz/google-doc-addon-document-copy",
+  "image": "./images/reminder.png",
+  "title": "Asset Management",
+  "stack": "JQuery, Firebase, GSuite, Google Apps Script",
+  "repo" : "https://github.com/supertopoz/google-doc-addon-document-copy"
+  }, 
+  {
   "url": "https://dance-party-5e5f3.firebaseapp.com/",
   "image": "./images/danceparty.png",
   "title": "Banana Dance Party",
