@@ -75,12 +75,17 @@ const portfolioData = [
   "stack": "Gap fill add-on, Gsuite, Apps Script",
   "repo" : "https://github.com/supertopoz/Teacher-Tools---Gap-Fill-maker"
   },
-
-    {
+  {
   "image": "./images/levelTestBooking.png",
   "title": "Booking Form",
   "stack": "Redux, Firebase, JQuery, CSS Grid",
   "repo" : "https://github.com/supertopoz/booking-app"
+  }
+  {
+  "image": "./images/trading-api.png",
+  "title": "Purchasing API",
+  "stack": "MySQL, Node.js Express, Mocha, Chai",
+  "repo" : "https://github.com/supertopoz/trading-api"
   },
 
 ]
