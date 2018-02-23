@@ -80,7 +80,7 @@ const portfolioData = [
   "title": "Booking Form",
   "stack": "Redux, Firebase, JQuery, CSS Grid",
   "repo" : "https://github.com/supertopoz/booking-app"
-  }
+  },
   {
   "image": "./images/trading-api.png",
   "title": "Purchasing API",
