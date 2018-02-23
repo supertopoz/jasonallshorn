@@ -3,16 +3,27 @@ const renderPortfolio = (data) => {
   var myDiv = document.getElementById('portfolio');
   let html = ""
   portfolioData.forEach((item) =>{
+  let url = '';
+    if(item.url){
+     url =  `
+        <a href=" ${item.url}" target="_blank">
+          <span class="link-button">Site</span>
+        </a>
+      `
+    }
   html += `
     <div class="portfolio-item">
-    <a href=" ${item.url}" target="_blank">
-    <img src="${item.image}">
-    <h1>${item.title}</h1>
-    </a>   
-    <p>${item.stack}</p>
-    <a href="${item.repo}" target="_blank">
-    <p>Repo</p>
-    </a>
+      <div class="card">
+          <img src="${item.image}"/>
+      </div>
+     <h1>${item.title}</h1>
+     <p>${item.stack}</p>
+    <div>
+      <a href="${item.repo}" target="_blank">
+        <span class="link-button">Repo</span>
+      </a>
+      ${url}
+    </div>
     </div>
      `
   })
@@ -20,4 +31,4 @@ const renderPortfolio = (data) => {
 }
 $(document).ready(() => {
 	renderPortfolio();
-})
+}) 

@@ -1,12 +1,3 @@
-const renderContact = (data) => {
-  $('.content').empty();
-  var myDiv = document.getElementById('content');
-  myDiv.innerHTML = (
-
-  );
-
-}
-
 const sanitize = (input) => {
 		var output = input.replace(/<script[^>]*?>.*?<\/script>/gi, '').
 					 replace(/<[\/\!]*?[^<>]*?>/gi, '').

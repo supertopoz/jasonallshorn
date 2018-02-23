@@ -27,10 +27,6 @@ const rollBackText = Redux.createStore(text);
 //Use subscribe() to update the UI in response to state changes.
 updateText.subscribe(() => {
   const data = updateText.getState().data;
-  if(data.view === 'contact'){
-    renderContact(data);
-  }
-
 });
 
 // The only way to mutate the internal state is to dispatch an action.

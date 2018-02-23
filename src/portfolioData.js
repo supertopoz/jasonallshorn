@@ -30,14 +30,12 @@ const portfolioData = [
   "repo" : "https://github.com/supertopoz/scriptinthree"
   }, 
   {
-  "url": "https://github.com/supertopoz/google-doc-addon-document-copy",
   "image": "./images/reminder.png",
   "title": "Asset Management",
   "stack": "JQuery, Firebase, GSuite, Google Apps Script",
   "repo" : "https://github.com/supertopoz/google-doc-addon-document-copy"
   }, 
     {
-  "url": "https://github.com/supertopoz/staff-tracking-dashboard",
   "image": "./images/reminderTrackerAllCenter.png",
   "title": "Staff Task Analytics",
   "stack": "JQuery, Firebase, Google Apps Script, HighChart.js",
@@ -72,7 +70,6 @@ const portfolioData = [
   "repo" : "https://github.com/supertopoz/fit-stop"
   }, 
   {
-  "url": "https://github.com/supertopoz/Teacher-Tools---Gap-Fill-maker",
   "image": "./images/gapfill.png",
   "title": "Teacher Tools",
   "stack": "Gap fill add-on, Gsuite, Apps Script",
@@ -80,7 +77,6 @@ const portfolioData = [
   },
 
     {
-  "url": "https://github.com/supertopoz/booking-app",
   "image": "./images/levelTestBooking.png",
   "title": "Booking Form",
   "stack": "Redux, Firebase, JQuery, CSS Grid",
