@@ -90,8 +90,8 @@ body {
   justify-self: center;
   flex-direction: column;
   flex-direction: column;
-  margin-top: 35px;
   margin-bottom: 100px;
+  padding-top: 100px
 }
 .portfolio-header {
    display:grid;
@@ -101,6 +101,7 @@ body {
    margin: 40px;
    text-align: center;
    color:#cfcfcf ;
+      padding-top: 100px;
 }
 
 .portfolio {

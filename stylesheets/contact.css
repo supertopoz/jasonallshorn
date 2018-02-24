@@ -1,10 +1,22 @@
 .contact-body{
- margin-left: 5%;
- margin-top: 5%;
+ display: grid;
+ grid-template-rows: 150px 100px 1fr 1fr;
+ align-self: center;
+ justify-content: center;
+
 }
 
 #contact-message {
 	height: 100px;
+
+}
+
+.nav-buttons:hover {
+  cursor: pointer; ;
+}
+
+.contact-body > h1 {
+  align-self: end;
 }
 
 #contact-button {

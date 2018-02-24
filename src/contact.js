@@ -24,3 +24,21 @@ $(document).on('click','#contact-button', ()=>{
 		  $('#contact-message').val('');
     })
 })
+
+$(document).on('click', '#about-btn', function() {
+    $('html, body').animate({
+        scrollTop: $(".about").offset().top
+    }, 1500);
+});
+
+$(document).on('click', '#portfolio-btn', function() {
+    $('html, body').animate({
+        scrollTop: $("#portfolio-header").offset().top
+    }, 1500);
+});
+
+$(document).on('click', '#contact-btn', function() {
+    $('html, body').animate({
+        scrollTop: $(".contact-body").offset().top
+    }, 1500);
+});
