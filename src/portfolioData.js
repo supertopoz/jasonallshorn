@@ -25,7 +25,7 @@ const portfolioData = [
   {
   "url": "https://ccienglish-7a2f3.firebaseapp.com/",
   "image": "./images/cci.png",
-  "title": "Dynamic Mobile first website",
+  "title": "Cool Static Website",
   "stack": "React, Firebase, CSS in JS, Parcel.js",
   "repo" : "https://github.com/supertopoz/cci-example2.1"
   }, 
