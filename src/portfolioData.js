@@ -23,6 +23,13 @@ const portfolioData = [
   "repo" : "https://github.com/supertopoz/top-10-news-v2"
   }, 
   {
+  "url": "https://ccienglish-7a2f3.firebaseapp.com/",
+  "image": "./images/cci.png",
+  "title": "Dynamic Mobile first website",
+  "stack": "React, Firebase, CSS in JS, Parcel.js",
+  "repo" : "https://github.com/supertopoz/cci-example2.1"
+  }, 
+  {
   "url": "http://scriptinthree.com/",
   "image": "./images/scriptinthree.png",
   "title": "Script in 3",
