@@ -1,12 +1,18 @@
 const portfolioData = [
 {
-  "url": "http://connect.ila.edu.vn",
-  "image": "./images/ilaconnect.png",
-  "title": "Connect - LMS",
-  "stack": "PHP, MySQL, Google Apps Script, ",
-  "repo" : "https://github.com/supertopoz/Learning-Management-System"
+  "url": "https://amazingcode.org",
+  "image": "./images/amazingcode.png",
+  "title": "Amazing Code",
+  "stack": "Firebase Githubpages React Redux",
+  "repo" : "https://github.com/supertopoz/ila-code-tool-1.1"
   },
-
+  {
+    "url": "http://connect.ila.edu.vn",
+    "image": "./images/ilaconnect.png",
+    "title": "Connect - LMS",
+    "stack": "PHP, MySQL, Google Apps Script, ",
+    "repo" : "https://github.com/supertopoz/Learning-Management-System"
+    },
 
  {
   "url": "https://basketbear.com",
