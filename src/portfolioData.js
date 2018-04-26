@@ -1,6 +1,6 @@
 const portfolioData = [
 {
-  "url": "https://amazingcode.org",
+  "url": "http://amazingcode.org",
   "image": "./images/amazingcode.png",
   "title": "Amazing Code",
   "stack": "Firebase Githubpages React Redux",
