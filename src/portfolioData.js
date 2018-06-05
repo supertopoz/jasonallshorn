@@ -3,7 +3,7 @@ const portfolioData = [
   "url": "http://bit.ly/myspeaking",
   "image": "./images/myStory.png",
   "title": "My Speaking",
-  "stack": "Firebase, Pure JS, Canvas, Mocha",
+  "stack": "Firebase, Redux, Pure JS, Canvas, Mocha",
   "repo" : "https://github.com/supertopoz/record-sound-video-canvas"
   }
   ,{
