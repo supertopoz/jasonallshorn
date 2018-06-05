@@ -1,5 +1,19 @@
 const portfolioData = [
 {
+  "url": "http://bit.ly/myspeaking",
+  "image": "./images/myStory.png",
+  "title": "My Speaking",
+  "stack": "Firebase, Pure JS, Canvas, Mocha",
+  "repo" : "https://github.com/supertopoz/record-sound-video-canvas"
+  }
+  ,{
+  "url": "https://offline-magu-two.firebaseapp.com/",
+  "image": "./images/offlineMagu.png",
+  "title": "Offline-Magu",
+  "stack": "Offline Service Worker, React, React-router, Parcel",
+  "repo" : "https://github.com/supertopoz/react-router-workbox-parcel-offline"
+  }
+  ,{
   "url": "http://amazingcode.org",
   "image": "./images/amazingcode.png",
   "title": "Amazing Code",
