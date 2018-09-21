@@ -1,5 +1,12 @@
 const portfolioData = [
 {
+  "url": "https://hangman.education",
+  "image": "./images/hangman.png",
+  "title": "Hang Man Game",
+  "stack": "Firebase, Redux, React, Jest",
+  "repo" : "https://github.com/supertopoz/hangman"
+  },
+  {
   "url": "http://bit.ly/myspeaking",
   "image": "./images/myStory.png",
   "title": "My Speaking",
