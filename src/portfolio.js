@@ -14,16 +14,16 @@ const renderPortfolio = (data) => {
   html += `
     <div class="portfolio-item">
       <div class="card">
-          <img src="${item.image}"/>
+        <img alt="website image" src="${item.image}"/>
       </div>
-     <h1>${item.title}</h1>
-     <p>${item.stack}</p>
-    <div>
-      <a href="${item.repo}" target="_blank">
+      <h1>${item.title}</h1>
+      <p>${item.stack}</p>
+      <div>
+        <a href="${item.repo}" target="_blank">
         <span class="link-button">Repo</span>
-      </a>
-      ${url}
-    </div>
+        </a>
+        ${url}
+      </div>
     </div>
      `
   })
