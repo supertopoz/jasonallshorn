@@ -14,10 +14,9 @@
   .header {
     box-shadow: 0 1px 1px #5a5a5a;
     display:grid;
-    background-color: grey;
+    background-color: #575757;
     grid-template-areas:"name           icons"                        
                         "navbar-buttons navbar-buttons";
-    background-color: grey;
     grid-area: header;
     color:#cfcfcf ;
     display: grid;
@@ -41,11 +40,11 @@
 }
 
 .nav-buttons {
-  background: rgba(234, 234, 234, 0.7);
+  background: #575757;
   margin: 10px;
   padding:10px;
   border-radius: 2px;
-  color: #2f2f2f;
+  color: white;
   text-align: center;
 }
 
