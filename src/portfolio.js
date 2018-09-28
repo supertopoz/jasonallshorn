@@ -6,7 +6,7 @@ const renderPortfolio = (data) => {
   let url = '';
     if(item.url){
      url =  `
-        <a href=" ${item.url}" target="_blank">
+        <a href=" ${item.url}" target="_blank" rel="noopener">
           <span class="link-button">Site</span>
         </a>
       `
@@ -19,7 +19,7 @@ const renderPortfolio = (data) => {
       <h1>${item.title}</h1>
       <p>${item.stack}</p>
       <div>
-        <a href="${item.repo}" target="_blank">
+        <a href="${item.repo}" target="_blank" rel="noopener">
         <span class="link-button">Repo</span>
         </a>
         ${url}
