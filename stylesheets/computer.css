@@ -12,11 +12,11 @@
    }
   .header {
     box-shadow: 0 1px 1px #5a5a5a;
-    background-color: grey;
+    background-color: #575757;
     grid-template-areas:"name  navbar-buttons icons" ;                      
-    background-color: grey;
+    background-color: #575757;
     grid-area: header;
-    color:#cfcfcf ;
+    color:#FFFFFF ;
     display: grid;
   }
 

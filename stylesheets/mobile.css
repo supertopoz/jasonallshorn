@@ -3,7 +3,7 @@
 .header {
   box-shadow: 0 1px 1px #5a5a5a;
   display:grid;
-  background-color: grey;
+  background-color: #575757;
    grid-template-areas: "name "
                         "icons"
                         "navbar-buttons";
@@ -37,7 +37,7 @@
   padding:2px;
   font-size: 12px;
   border-radius: 2px;
-  color: #2f2f2f;
+  color: #FFFFFF;
   text-align: center;
   letter-spacing: 3px;
   margin:10px;
@@ -52,7 +52,7 @@
   grid-area: about;
   display:grid;
   grid-template-columns: auto;
-  color:#cfcfcf ;
+  color:#FFFFFF ;
   margin-top: 84px;
 }
 

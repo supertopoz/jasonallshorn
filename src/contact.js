@@ -20,8 +20,8 @@ $(document).on('click','#contact-button', ()=>{
     data.append('data', JSON.stringify(contactData));
     axios.post("https://script.google.com/macros/s/AKfycbwRCybkl-pagFutTaDWiudhQ_wsEbWg_b84FNJ6XomdNbHEcFI/exec",data).then((response) => {
 	    $('#contact-name').val('');
-		  $('#contact-email').val('');
-		  $('#contact-message').val('');
+		$('#contact-email').val('');
+		$('#contact-message').val('');
     })
 })
 

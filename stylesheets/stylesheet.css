@@ -118,11 +118,10 @@ body {
 
   grid-template-rows: 200px 100px 100px 30px ;
   display: grid;
-  color:#cfcfcf ;
   align-self: center;
   justify-self: center;
-  background: grey;
-  color: #cfcfcf;
+  background: #575757;
+  color:#FFFFFF;
   text-align: center;
   padding: 10px;
   min-height: 450px;
