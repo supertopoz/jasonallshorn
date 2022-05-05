@@ -1,8 +1,15 @@
 const renderPortfolio = (data) => {
   $('.portfolio').empty();
-  var myDiv = document.getElementById('portfolio');
+
+
   let html = ""
+  let tabs = {
+      "programming": "",
+      "analytics": "",
+      "author": ""
+  }
   portfolioData.forEach((item) =>{
+
   let url = '';
     if(item.url){
      url =  `
@@ -11,24 +18,35 @@ const renderPortfolio = (data) => {
         </a>
       `
     }
-  html += `
+  tabs[item.tab] += `
     <div class="portfolio-item">
       <div class="card">
-        <img alt="website image" src="${item.image}"/>
+        <img class="card-image"  alt="website image" src="${item.image}"/>
       </div>
       <h1>${item.title}</h1>
       <p>${item.stack}</p>
       <div>
         <a href="${item.repo}" target="_blank" rel="noopener">
-        <span class="link-button">Repo</span>
+        <span class="link-button">More</span>
         </a>
         ${url}
       </div>
     </div>
      `
   })
-  myDiv.innerHTML = (html);
+    document.getElementById('portfolio-programming').innerHTML = tabs.programming;
+    document.getElementById('portfolio-analytics').innerHTML = tabs.analytics;
+    document.getElementById('portfolio-author').innerHTML = tabs.author;
 }
 $(document).ready(() => {
 	renderPortfolio();
-}) 
+})
+
+function openCity(cityName) {
+    var i;
+    var x = document.getElementsByClassName("city");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    document.getElementById(cityName).style.display = "block";
+}

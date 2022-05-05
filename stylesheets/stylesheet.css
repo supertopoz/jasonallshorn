@@ -40,7 +40,7 @@ body {
     }
 
     .wrapper > * {
-        background-color: #2f2f2f;       
+        background-color: #2f2f2f;
     }
 
     nav ul {
@@ -109,16 +109,17 @@ body {
    grid-gap: 20px;
    grid-area: portfolio;
    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+   /*background: white;*/
+   max-height: 1000px;
+   overflow-y: auto;
 
 }
 
 
 
 .portfolio-item {
-
   grid-template-rows: 200px 100px 100px 30px ;
   display: grid;
-  align-self: center;
   justify-self: center;
   background: #575757;
   color:#FFFFFF;
@@ -163,4 +164,9 @@ a {
     margin: 10px;
     box-shadow: 1px 1px 1px #5a5a5a;
     border: 0.4px solid #cfcfcf;
+}
+
+img.card-image {
+    max-height: 100%;
+    max-width: 300px;
 }

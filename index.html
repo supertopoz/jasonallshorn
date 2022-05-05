@@ -12,7 +12,8 @@
   <script type="text/javascript" src="./src/contact.js"></script>
   <script type="text/javascript" src="./src/portfolio.js"></script>
   <script type="text/javascript" src="./src/portfolioData.js"></script>
-  
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
   <!-- External Styles  -->
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
@@ -21,7 +22,7 @@
   <link rel="stylesheet" type="text/css" href="./stylesheets/stylesheet.css">
   <link rel="stylesheet" type="text/css" href="./stylesheets/mobile.css">
   <link rel="stylesheet" type="text/css" href="./stylesheets/tablet.css">
-	<link rel="stylesheet" type="text/css" href="./stylesheets/computer.css">	
+	<link rel="stylesheet" type="text/css" href="./stylesheets/computer.css">
 </head>
 <body>
 <div class="wrapper">
@@ -29,7 +30,7 @@
           <div id="name">Jason Allshorn</div>
           <div class="navbar-buttons">
             <span id="about-btn" class="nav-buttons" >About</span>
-            <span id="portfolio-btn" class="nav-buttons" >Portfolio</span>  
+            <span id="portfolio-btn" class="nav-buttons" >Portfolio</span>
             <span id="contact-btn" class="nav-buttons">Contact</span>
           </div>
           <div id="contact-icons">
@@ -46,11 +47,11 @@
 
           <h3>Full Stack Engineer</h3>
           <a title="page position id for about" id="about"></a>
-        </div>    
+        </div>
         </main-head> 
 
         <about class="about">
-          <img  width="100%" src="jason.png" alt="huge-of-jason-face">  
+          <img  width="100%" src="jason.png" alt="huge-of-jason-face">
           <div  style="text-align: center">
             <h1>About Me </h1>
             <p id="blurb" style="letter-spacing: 4px;"">"Hi! I'm a fullstack software engineer. I create full-stack applications primarily with Node.js,  Express, React.js, NoSql (MongoDB), mySQL,  Firebase, and Firestore. I also do add-ons for Gsuite products."
@@ -59,11 +60,34 @@
             <a title="link to jason's stackoverflow" href="https://stackoverflow.com/users/5086349/jason-allshorn?tab=profile" target="_blank" rel="noopener"><i class="fa fa-stack-overflow" aria-hidden="true" ></i></a>
             </p>
           </div>
-        </about>     
+        </about>
         <portfolio-header id="portfolio-header" class="portfolio-header">
         <h1>Portfolio</h1>
         </portfolio-header>
-        <portfolio id="portfolio" class="portfolio"></portfolio>
+
+    <div class="w3-bar w3-black">
+    <button class="w3-bar-item w3-button" onclick="openCity('Programming')">Programming</button>
+    <button class="w3-bar-item w3-button" onclick="openCity('Analytics')">Analytics</button>
+    <button class="w3-bar-item w3-button" onclick="openCity('Author')">Author</button>
+        <button style="display:none;" class="w3-bar-item w3-button" onclick="openCity('Certificates')">Certificates</button>
+</div>
+
+<div id="Programming" class="w3-container city">
+    <portfolio id="portfolio-programming" class="portfolio"></portfolio>
+</div>
+
+<div id="Analytics" class="w3-container city" style="display:none">
+    <portfolio id="portfolio-analytics" class="portfolio"></portfolio>
+</div>
+
+<div id="Author" class="w3-container city" style="display:none">
+
+    <portfolio id="portfolio-author" class="portfolio"></portfolio>
+</div>
+    <div  id="Certificates" class="w3-container city" style="display:none">
+        <h2>Tokyo</h2>
+        <p>Tokyo is the capital of Japan.</p>
+    </div>
         <article id="content" class="content">
         <a title="link to page position called contact" id="contact"></a>
         <div class="contact-body">
@@ -85,9 +109,9 @@
             <div id="contact-button"> Submit</div>
           <div>
         </div>
-        </article> 
+        </article>
         <footer class="main-footer">copyright 2018 Jason Allshorn
-       
+
         </footer>
 </div>
 </body>
