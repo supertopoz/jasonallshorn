@@ -112,6 +112,7 @@ body {
    /*background: white;*/
    max-height: 1000px;
    overflow-y: auto;
+   margin-top: 20px;
 
 }
 
@@ -169,4 +170,13 @@ a {
 img.card-image {
     max-height: 100%;
     max-width: 300px;
+}
+
+.w3-bar.w3-black {
+    background: #575757 !important;
+}
+
+button.w3-bar-item.w3-button:focus {
+    background: #cfcfcf !important;
+    color: black;
 }
