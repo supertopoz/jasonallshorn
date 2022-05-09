@@ -185,5 +185,60 @@ const portfolioData = [
         "repo" : "https://sendbird.com/developer/tutorials/designing-message-objects",
         "tab" : "author"
     },
-
+    {
+        "image": images.message_objects,
+        "title": "Read receipts",
+        "stack": "Javascript",
+        "repo" : "https://sendbird.com/developer/tutorials/read-receipts-sendbird-chat",
+        "tab" : "author"
+    },
+    {
+        "image": images.message_objects,
+        "title": "Customize iOS UIKit",
+        "stack": "iOS",
+        "repo" : "https://sendbird.com/developer/tutorials/ios-chat-uikit-customization",
+        "tab" : "author"
+    },
+    {
+        "image": images.message_objects,
+        "title": "Sendbird & Salesforce",
+        "stack": "Javascript, Java",
+        "repo" : "https://sendbird.com/developer/tutorials/how-to-integrate-sendbird-with-salesforce",
+        "tab" : "author"
+    },
+    {
+        "image": images.message_objects,
+        "title": "Moderation API",
+        "stack": "Best Practice",
+        "repo" : "https://sendbird.com/developer/tutorials/reporting-api-best-practice",
+        "tab" : "author"
+    },
+    {
+        "image": images.message_objects,
+        "title": "Streaming and live events",
+        "stack": "Best Practice",
+        "repo" : "https://sendbird.com/developer/tutorials/live-streaming-live-events-with-sendbird",
+        "tab" : "author"
+    },
+    {
+        "image": images.message_objects,
+        "title": "Preview URLs",
+        "stack": "Best Practice",
+        "repo" : "https://sendbird.com/blog/sending-preview-urls-in-messages-containing-links",
+        "tab" : "author"
+    },
+    {
+        "image": images.message_objects,
+        "title": "Web push",
+        "stack": "PWA, JavaScript",
+        "repo" : "https://sendbird.com/developer/tutorials/web-app-push-notifications-with-firebase",
+        "tab" : "author"
+    },
+    {
+        "image": images.message_objects,
+        "title": "End-to-end encryption",
+        "stack": "Encryption, JavaScript",
+        "repo" : "https://sendbird.com/developer/tutorials/chat-message-encryption-virgil-security",
+        "tab" : "author"
+    },
 ]
